@@ -14,12 +14,7 @@ const DefaultThreeScene = () => {
   }, []);
 
   return (
-    <div>
-      <canvas
-        style={{ height: '540px', width: '540px', position: 'relative' }}
-        ref={refCanvas}
-      ></canvas>
-    </div>
+    <canvas style={{ width: '100%', height: '100%', display: 'block' }} ref={refCanvas}></canvas>
   );
 };
 

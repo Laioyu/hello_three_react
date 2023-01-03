@@ -30,7 +30,7 @@ class ThreeScene {
 
     this._activeCamera = new THREE.PerspectiveCamera(
       45,
-      window.innerWidth / window.innerHeight,
+      this._canvas.clientWidth / this._canvas.clientHeight,
       1,
       1000,
     );
